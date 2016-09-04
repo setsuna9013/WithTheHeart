@@ -5,6 +5,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- css -->
+<link rel="stylesheet" href="css/reservation.css">
 <title>予約フォーム</title>
 </head>
 <body>
@@ -16,7 +18,9 @@
 			</tr>
 			<tr>
 				<td><s:property value="daytime"></s:property></td>
+				<s:form action="AdminReservationAction">
 				<td><s:submit name="stock" type="button" value="承認"/></td>
+				</s:form>
 			</tr>
 		</table>
 	</s:iterator>

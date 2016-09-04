@@ -1,4 +1,48 @@
-.header{
-  background-color: #195dbe;
-  height: 200px;
+.header {
+width:100%;
+background:#49adbe;
+background-image:url(../images/menu2.png);
+background-repeat:repeat-x;
+height:28px;
+font-size:12px;
+}
+
+.header ul {
+width:900px;
+list-style:none;
+display:block;
+margin: 0px auto;
+text-align: left;
+padding: 0px;
+}
+
+.header li {
+list-style:none;
+float:right;
+text-align:center;
+border-right:solid #FFFFFF 1px;
+width:179px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.header li.home {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+width:178px;
+border-left:solid #FFFFFF 1px;
+}
+
+.header a, .header a:link, .header a:visited {
+color: #FFFFFF;
+text-decoration: none;
+height:23px;
+padding: 5px 0px 0px 0px;
+display:block;
+}
+
+.header a:hover {
+color: #000000;
+background:#ececec;
+text-decoration: none;
 }
